@@ -1,6 +1,9 @@
-name: Hello World New
+name: Test Workflow
 
 on:
+  push:
+    branches:
+      - "main"
   workflow_dispatch:
 
 jobs:
@@ -9,4 +12,4 @@ jobs:
 
     steps:
       - name: Say hello
-        run: echo "Hello World From Start Lab"
+        run: echo "Hello World abinay"
